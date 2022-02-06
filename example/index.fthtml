@@ -1,0 +1,33 @@
+doctype "html"
+html (lang=en) {
+
+    head
+    {
+        meta (charset=utf-8)
+        meta (content="IE=edge" http-equiv=X-UA-Compatible)
+        meta (content="width=device-width, initial-scale=1" name=viewport)
+        title "Json Schema Explorer Demo"
+        link (href=main.css media=screen rel=stylesheet type="text/css")
+
+        css {
+
+            body {
+                font-family: Arial;
+            }
+
+        }
+    } // end of head
+    body
+    {
+        h1 "Json Schema Explorer Examples"
+        p
+        {
+            "You can see the json equivalent of these schemas in the "
+            a (href=example.js target=_blank) "example.js file"
+        }
+
+        script (src="../dist/JsonSchemaExplorer.min.js")
+        script (src="example.js")
+    }
+
+}

@@ -1,0 +1,19 @@
+#myJsonSchemaExplorer .key {
+  color: blue;
+}
+#myJsonSchemaExplorer .number,
+json-schema-explorer .integer {
+  color: green;
+}
+#myJsonSchemaExplorer .string {
+  color: brown;
+}
+#myJsonSchemaExplorer .boolean {
+  color: orange;
+}
+#myJsonSchemaExplorer .null {
+  color: turquoise;
+}
+#myJsonSchemaExplorer .separator {
+  color: black;
+}
