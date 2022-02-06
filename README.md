@@ -3,6 +3,8 @@ JSON Schema Explorer is a lightweight, all-in-one solution for browsing and expl
 
 This is a customizable solution, where you have creative freedom on CSS and options to fit the style to your needs.
 
+<a href="https://soulshined.github.io/json-schema-explorer" target="_blank">DEMO</a>
+
 ## Features
 - Small, portable, footprint: ~18kb library
 - Syntax Highlighting
@@ -128,7 +130,7 @@ Additionally, if you don't include a `format` type but do include a `pattern` ke
 
 When a supported `format` keyword is used in a string type schema, the regex pattern is automatically supplied to the playground, you do not need to include a pattern. Additionally, a documentation link is also provided for these schemas for users to review if they don't understand why their text does not pass validation.
 
-You can review the [examples/demos](./docs/index.html) page to explore this feature
+You can review the [examples/demos](https://soulshined.github.io/json-schema-explorer/) page to explore this feature
 
 ## CSS Selectors
 
