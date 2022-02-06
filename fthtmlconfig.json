@@ -1,0 +1,8 @@
+{
+    "rootDir": "./",
+    "exportDir": "./",
+    "keepTreeStructure": true,
+    "globalvars": {
+        "IS_DEBUG" : "false"
+    }
+}
