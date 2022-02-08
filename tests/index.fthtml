@@ -5,7 +5,7 @@ html (lang=en) {
     head
     {
         meta (charset=utf-8)
-        title 'HTML Tag Builder Tests'
+        title 'Json Schema Explorer Tests'
         link (href='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine.min.css' rel=stylesheet)
         script (src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine.min.js')
         script (src='https://cdnjs.cloudflare.com/ajax/libs/jasmine/2.8.0/jasmine-html.js')

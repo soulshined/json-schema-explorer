@@ -2,7 +2,7 @@
   color: blue;
 }
 #myJsonSchemaExplorer .number,
-json-schema-explorer .integer {
+#myJsonSchemaExplorer .integer {
   color: green;
 }
 #myJsonSchemaExplorer .string {
