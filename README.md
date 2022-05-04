@@ -34,7 +34,7 @@ This is a customizable solution, where you have creative freedom on CSS and opti
         ```html
         <head>
             ...
-            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.1.0/dist/JsonSchemaExplorer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.2.0/dist/JsonSchemaExplorer.min.js"></script>
             ...
         </head>
         ```
