@@ -129,6 +129,24 @@ const example8 = {
     }
 };
 
+const example9 = {
+    description: `Demonstrates a schema with multiple types`,
+    schema: {
+        '$id': 'http://com.foo.bar/schema.json',
+        type: "object",
+        properties: {
+            foo: {
+                type: ['string', 'null'],
+                maxLength: 50
+            },
+            bar: {
+                type: ['array', "null"],
+                minItems: 0
+            }
+        }
+    }
+};
+
 [
     example1,
     example2,
@@ -137,7 +155,8 @@ const example8 = {
     example5,
     example6,
     example7,
-    example8
+    example8,
+    example9
 ].forEach((ex, i) => {
     document.body.innerHTML += `<h2>Example ${i + 1}</h2><p>${ex.description}</p>`;
 
