@@ -137,13 +137,23 @@ const example9 = {
         properties: {
             foo: {
                 type: ['string', 'null'],
-                maxLength: 50
+                maxLength: 50,
+                pattern: "^w{3,}$"
             },
             bar: {
                 type: ['array', "null"],
                 minItems: 0
             }
         }
+    }
+};
+
+const example10 = {
+    description: `Demonstrates a schema with multiple types at top-level`,
+    schema: {
+        type: ["string", "null"],
+        maxLength: 50,
+        pattern: "^.*$"
     }
 };
 
@@ -156,7 +166,8 @@ const example9 = {
     example6,
     example7,
     example8,
-    example9
+    example9,
+    example10
 ].forEach((ex, i) => {
     document.body.innerHTML += `<h2>Example ${i + 1}</h2><p>${ex.description}</p>`;
 
