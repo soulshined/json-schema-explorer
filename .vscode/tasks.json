@@ -12,6 +12,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Build dev webpack watch",
+            "type": "shell",
+            "command": "webpack-cli --config ./webpack.config.dev.js --watch",
+            "problemMatcher": []
         }
     ],
     "inputs": [
