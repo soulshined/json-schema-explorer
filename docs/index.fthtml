@@ -29,7 +29,7 @@ html (lang=en) {
         #if @IS_DEBUG eq 'true'
             script (src="../dist/JsonSchemaExplorer.min.js")
         #else
-            script (src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.3.1/dist/JsonSchemaExplorer.min.js")
+            script (src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.4.0/dist/JsonSchemaExplorer.min.js")
         #end
         script (src="example.js")
     }

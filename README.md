@@ -12,6 +12,8 @@ This is a customizable solution, where you have creative freedom on CSS and opti
 - Semantic counts of schema properties or array/enum lengths at a glance
 - See what type the schema is at a glance
 - Options to customize style
+- Anchors for each and every property or array item
+    - Automatically expands and navigates to anchor if there is a window hash present
 - Interactive playground for string format/pattern based schemas
     ![playground pic](./docs/images/playground.png)
     - Users can test schemas by typing text directly in the explorer
@@ -34,7 +36,7 @@ This is a customizable solution, where you have creative freedom on CSS and opti
         ```html
         <head>
             ...
-            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.3.1/dist/JsonSchemaExplorer.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.4.0/dist/JsonSchemaExplorer.min.js"></script>
             ...
         </head>
         ```
