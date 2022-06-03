@@ -35,9 +35,7 @@ This is a customizable solution, where you have creative freedom on CSS and opti
     - via JSDelivr
         ```html
         <head>
-            ...
-            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.4.0/dist/JsonSchemaExplorer.min.js"></script>
-            ...
+            <script src="https://cdn.jsdelivr.net/gh/soulshined/json-schema-explorer@v1.5.0/dist/JsonSchemaExplorer.min.js"></script>
         </head>
         ```
 2) Create an instance of the explorer.
